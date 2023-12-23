@@ -25,7 +25,7 @@ const Slidar = () => {
                                 <h1 className=' text-[10px] md:text-[16px] font-Inter font-bold bg-brown bg-clip-text gradient text-transparent max-[500px]:hidden'>URBAN NFT</h1>
                             </div>
                             <p class="text-black text-[10px] sm:text-xs font-medium font-Inter pt-[65px] md:pl-4 lg:block hidden">MARKETPLACE</p>
-                            <Link to='/home' class="w-full inline-block min-h-[45px] group duration-500 hover:bg-box-hover rounded-[22.50px] py-[13px] px-[15px] mt-4 cursor-pointer">
+                            <Link to='/home' onClick={respon} class="w-full inline-block min-h-[45px] group duration-500 hover:bg-box-hover rounded-[22.50px] py-[13px] px-[15px] mt-4 cursor-pointer">
                                 <div className='flex xl:flex-row flex-col items-center md:gap-2'>
                                     <span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
@@ -46,7 +46,7 @@ const Slidar = () => {
                                     <p className='font-Inter md:md:pl-[17px] text-[14px] font-semibold leading-[normal] text-[#7C7C7C] group-hover:bg-brown group-hover:text-transparent group-hover:bg-clip-text max-[500px]:hidden'>Dashboard</p>
                                 </div>
                             </Link>
-                            <Link to='/market' class="w-full inline-block min-h-[45px] group duration-500 hover:bg-box-hover rounded-[22.50px] py-[13px] px-[15px] mt-4 cursor-pointer">
+                            <Link to='/market' onClick={respon} class="w-full inline-block min-h-[45px] group duration-500 hover:bg-box-hover rounded-[22.50px] py-[13px] px-[15px] mt-4 cursor-pointer">
                                 <div className='flex xl:flex-row flex-col items-center md:gap-2'>
                                     <span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -57,7 +57,7 @@ const Slidar = () => {
                                     <p className='font-Inter md:pl-[17px] text-[14px] font-semibold leading-[normal] text-[#7C7C7C] group-hover:bg-brown group-hover:text-transparent group-hover:bg-clip-text'>Market</p>
                                 </div>
                             </Link>
-                            <Link to='/trending' class="w-full inline-block min-h-[45px] group duration-500 hover:bg-box-hover rounded-[22.50px] py-[13px] px-[15px] mt-4 cursor-pointer">
+                            <Link to='/trending' onClick={respon} class="w-full inline-block min-h-[45px] group duration-500 hover:bg-box-hover rounded-[22.50px] py-[13px] px-[15px] mt-4 cursor-pointer">
                                 <div className='flex xl:flex-row flex-col items-center md:gap-2'>
                                     <span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -69,7 +69,7 @@ const Slidar = () => {
                                 </div>
                             </Link>
                             <p class="text-black text-xs font-medium font-Inter pt-[100px] md:pl-4 text-center md:text-start">MY PROFILE</p>
-                            <Link to='/insight' class="w-full inline-block min-h-[45px] group duration-500 hover:bg-box-hover rounded-[22.50px] py-[13px] px-[15px] mt-4 cursor-pointer">
+                            <Link to='/insight' onClick={respon} class="w-full inline-block min-h-[45px] group duration-500 hover:bg-box-hover rounded-[22.50px] py-[13px] px-[15px] mt-4 cursor-pointer">
                                 <div className='flex xl:flex-row flex-col items-center md:gap-2'>
                                     <span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -80,7 +80,7 @@ const Slidar = () => {
                                     <p className='font-Inter md:pl-[17px] text-[14px] font-semibold leading-[normal] text-[#7C7C7C] group-hover:bg-brown group-hover:text-transparent group-hover:bg-clip-text'>Insight</p>
                                 </div>
                             </Link>
-                            <Link to='/history' class="w-full inline-block min-h-[45px] group duration-500 hover:bg-box-hover rounded-[22.50px] py-[13px] px-[15px] mt-4 cursor-pointer">
+                            <Link to='/history' onClick={respon} class="w-full inline-block min-h-[45px] group duration-500 hover:bg-box-hover rounded-[22.50px] py-[13px] px-[15px] mt-4 cursor-pointer">
                                 <div className='flex xl:flex-row flex-col items-center md:gap-2'>
                                     <span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14" fill="none">
