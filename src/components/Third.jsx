@@ -43,7 +43,7 @@ const Third = () => {
     ]
   return (
     <div>
-      <div className="container lg:mt-0 mt-[50px]">
+      <div className="container lg:mt-0 mt-[50px] mx-auto">
         {
             Cards3.map((g) => <Card3 key={g.id} img={g.main} top={g.first} bold={g.dark} line={g.line} heart={g.like} num={g.rate} solana={g.logo} count={g.number}/> )
         }

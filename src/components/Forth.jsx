@@ -33,8 +33,8 @@ const Forth = () => {
         },
     ]
     return (
-        <div className="container px-3 flex justify-center">
-            <div className='lg:max-w-[320px] max-w-[600px] w-full min-h-[447px] bg-white rounded-[18px] shadow py-4 px-6 mt-[65px]'>
+        <div className="container md:mx-0 px-3 lg:block flex justify-center">
+            <div className=' max-w-[600px] w-full min-h-[447px] bg-white rounded-[18px] shadow py-4 px-6 mt-[65px]'>
                 <div className=" flex items-center pb-[35px] justify-between">
                     <p class="text-neutral-600 text-base font-medium font-['Inter'] leading-tight">History</p>
                     <select id="timw" className="w-[98px] h-[26px] rounded border border-neutral-400">

@@ -25,7 +25,7 @@ const Section = () => {
                     <div className='relative w-full md:w-[50%] px-3 flex items-center justify-center'>
                         <div className="">
                             <div class="text-orange-300 sm:pl-0 pl-[30px] text-[13px] sm:text-base font-medium font-['Inter'] leading-tight z-[2] mt-[50px] relative">Create MetroVerse Genesis</div>
-                            <div class="max-w-[283px] pl-[10px] pr-[70px] sm:px-0  text-neutral-500 text-[12px] sm:text-xs font-medium font-['Inter'] leading-none z-[2] py-[30px] relative">physical claim for issue #1 now live. please check that the token is available for claim via website</div>
+                            <div class="max-w-[283px] px-3 sm:px-0  text-neutral-500 text-[12px] sm:text-xs font-medium font-['Inter'] leading-none z-[2] py-[30px] relative">physical claim for issue #1 now live. please check that the token is available for claim via website</div>
                             <div class="">
                                 <button class="text-white text-[12px] sm:ml-0 ml-[20px] sm:text-sm font-medium font-['Inter'] leading-tight w-full max-w-[140px] h-full px-4 py-2 z-[2] bg-brown rounded-[22px] shadow justify-center items-center gap-1 inline-flex relative">Explorer Now</button>
                             </div>
@@ -63,10 +63,10 @@ const Section = () => {
                             </button>
                         </div>
                         <Slider ref={first} {...settings} className='xl:translate-y-[15%] mt-[50px] max-sm: translate-x-4 xl:-translate-x-7 '>
-                            <img class=" max-sm:max-w-[357px] w-full h-[150px] sm:mb-0 mb-3 sm:h-[307px] rounded-[18px] shadow pl-1" src={cardimg} />
-                            <img class=" max-sm:max-w-[357px] w-full h-[150px] sm:mb-0 mb-3 sm:h-[307px] rounded-[18px] shadow pl-1" src={cardimg1} />
-                            <img class=" max-sm:max-w-[357px] w-full h-[150px] sm:mb-0 mb-3 sm:h-[307px] rounded-[18px] shadow pl-1" src={cardimg} />
-                            <img class=" max-sm:max-w-[357px] w-full h-[150px] sm:mb-0 mb-3 sm:h-[307px] rounded-[18px] shadow pl-1" src={cardimg1} />
+                            <img class=" max-sm:max-w-[357px] w-full sm:mb-0 mb-3 sm:h-[307px] rounded-[18px] shadow pl-1" src={cardimg} />
+                            <img class=" max-sm:max-w-[357px] w-full sm:mb-0 mb-3 sm:h-[307px] rounded-[18px] shadow pl-1" src={cardimg1} />
+                            <img class=" max-sm:max-w-[357px] w-full sm:mb-0 mb-3 sm:h-[307px] rounded-[18px] shadow pl-1" src={cardimg} />
+                            <img class=" max-sm:max-w-[357px] w-full sm:mb-0 mb-3 sm:h-[307px] rounded-[18px] shadow pl-1" src={cardimg1} />
                         </Slider>
                     </div>
                 </div>
