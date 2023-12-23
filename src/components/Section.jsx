@@ -19,7 +19,7 @@ const Section = () => {
     };
     return (
         <div className='container mx-auto px-3 '>
-            <div class=" min-[860px]:max-w-[812px] max-w-[600px] min-h-[361px] bg-white rounded-[18px] shadow relative w-full">
+            <div class=" min-[860px]:max-w-[812px] max-w-[600px] min-h-[361px] bg-white rounded-[18px] shadow relative w-full p-3">
                 <img className='top-0 absolute left-0 z-[1]' src={cardelepis} alt="card-ellipis" />
                 <div className="flex flex-wrap -mx-3 flex-row w-full">
                     <div className='relative w-full md:w-[50%] px-3 flex items-center justify-center'>
@@ -62,7 +62,7 @@ const Section = () => {
                                 <img className=' absolute right-[60%] sm:right-[15%] z-[2] top-[5%] cursor-pointer' src={next} alt="next" />
                             </button>
                         </div>
-                        <Slider ref={first} {...settings} className='xl:translate-y-[15%] mt-[50px] max-sm: translate-x-4 xl:-translate-x-7 '>
+                        <Slider ref={first} {...settings} className='xl:translate-y-[15%] mt-[50px] max-sm: translate-x-4 xl:-translate-x-3 '>
                             <img class=" max-sm:max-w-[357px] w-full sm:mb-0 mb-3 sm:h-[307px] rounded-[18px] shadow pl-1" src={cardimg} />
                             <img class=" max-sm:max-w-[357px] w-full sm:mb-0 mb-3 sm:h-[307px] rounded-[18px] shadow pl-1" src={cardimg1} />
                             <img class=" max-sm:max-w-[357px] w-full sm:mb-0 mb-3 sm:h-[307px] rounded-[18px] shadow pl-1" src={cardimg} />

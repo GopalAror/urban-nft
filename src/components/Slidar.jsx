@@ -92,7 +92,7 @@ const Slidar = () => {
                                     <p className='font-Inter md:pl-[17px] text-[14px] font-semibold leading-[normal] text-[#7C7C7C] group-hover:bg-brown group-hover:text-transparent group-hover:bg-clip-text'>Wallet</p>
                                 </div>
                             </Link>
-                            <div class="w-full min-h-[45px] group duration-500 hover:bg-box-hover rounded-[22.50px] py-[13px] px-[15px] mt-4 cursor-pointer">
+                            <Link to='/history' onClick={respon}  class="w-full inline-block min-h-[45px] group duration-500 hover:bg-box-hover rounded-[22.50px] py-[13px] px-[15px] mt-4 cursor-pointer">
                                 <div className='flex xl:flex-row flex-col items-center md:gap-2'>
                                     <span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16" fill="none">
@@ -102,9 +102,9 @@ const Slidar = () => {
                                     </span>
                                     <p className='font-Inter md:pl-[17px] text-[14px] font-semibold leading-[normal] text-[#7C7C7C] group-hover:bg-brown group-hover:text-transparent group-hover:bg-clip-text'>Profile</p>
                                 </div>
-                            </div>
-                            <div class="w-full min-h-[45px] group duration-500 hover:bg-box-hover rounded-[22.50px] py-[13px] sm:px-[15px] mt-4 cursor-pointer">
-                                <Link to="/nav" className='flex xl:flex-row flex-col items-center md:gap-2'>
+                            </Link>
+                            <Link to='/history' onClick={respon}  class="w-full inline-block min-h-[45px] group duration-500 hover:bg-box-hover rounded-[22.50px] py-[13px] sm:px-[15px] mt-4 cursor-pointer">
+                                <div  className='flex xl:flex-row flex-col items-center md:gap-2'>
                                     <span>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                                             <path d="M8.0088 10.1223C6.80545 10.1223 5.83203 9.18477 5.83203 8.00727C5.83203 6.82977 6.80545 5.88477 8.0088 5.88477C9.21216 5.88477 10.1626 6.82977 10.1626 8.00727C10.1626 9.18477 9.21216 10.1223 8.0088 10.1223Z" fill="#A8A8A8" className=' group-hover:fill-[url(#paint1_linear_33_463)]' />
@@ -112,10 +112,10 @@ const Slidar = () => {
                                         </svg>
                                     </span>
                                     <p className='font-Inter md:pl-[17px] text-[14px] font-semibold leading-[normal] text-[#7C7C7C] group-hover:bg-brown group-hover:text-transparent group-hover:bg-clip-text'>Setting</p>
-                                </Link>
-                            </div>
+                                </div>
+                            </Link>
                             <div className="pt-[65px] pb-4">
-                                <div class="w-full min-h-[45px] group duration-500 hover:bg-box-hover rounded-[22.50px] py-[13px] sm:px-[15px] mt-4 cursor-pointer">
+                                <Link to='/history' onClick={respon}  class="w-full inline-block min-h-[45px] group duration-500 hover:bg-box-hover rounded-[22.50px] py-[13px] sm:px-[15px] mt-4 cursor-pointer">
                                     <div className='flex xl:flex-row flex-col items-center md:gap-2'>
                                         <span>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -125,7 +125,7 @@ const Slidar = () => {
                                         </span>
                                         <p className='font-Inter md:pl-[17px] text-[14px] font-semibold leading-[normal] text-[#7C7C7C] group-hover:bg-brown group-hover:text-transparent group-hover:bg-clip-text'>Log out</p>
                                     </div>
-                                </div>
+                                </Link>
                             </div>
                         </div>
                     </div>
