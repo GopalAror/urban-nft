@@ -3,7 +3,7 @@ import React from 'react'
 const Card3 = (props) => {
     return (
         <div className='flex justify-center w-full px-3'>
-            <div class="lg:max-w-[319px] w-full min-h-[100px] bg-white rounded-[18px] p-[9px] flex mt-3 ">
+            <div class=" w-full min-h-[100px] bg-white rounded-[18px] p-[9px] flex mt-3 ">
                 <img className='rounded-[10px]' src={props.img} alt="img" />
                 <div className='pl-[11px] w-full'>
                     <p class="text-neutral-500 text-[7px] font-medium font-['Inter'] leading-[8.12px]">{props.top}</p>
