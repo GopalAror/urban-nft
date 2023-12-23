@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Nav from './components/Nav';
+import Slidar from './components/Slidar';
+import Rout from './components/Rout';
+import Third from './components/Third';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className=' flex overflow-x-hidden'>
+        <Slidar />
+        <div className='w-full'>
+            <Nav />
+      <Routes>
+        <Route path='/' element={<Rout/>}/>
+        <Route path='/home' element={<Third/>}/>
+        <Route path='/home' element={<Third/>}/>
+        <Route path='/home' element={<Third/>}/>
+        <Route path='/home' element={<Third/>}/>
+      </Routes>
+            
+        </div>
+      </div>
     </div>
   );
 }
